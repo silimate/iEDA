@@ -61,6 +61,10 @@ if(SANITIZER)
     message("address sanitizer load")
 endif()
 
+if(APPLE)
+    include(cmake/macos.cmake)
+endif()
+
 include(cmake/setting.cmake)
 include(cmake/third_party.cmake)
 include(cmake/operation/ista.cmake)
