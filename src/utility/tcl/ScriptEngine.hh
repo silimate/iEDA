@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include <tcl8.6/tcl.h>
+#include <tcl-tk/tcl.h>
 
 #include <memory>
 #include <mutex>

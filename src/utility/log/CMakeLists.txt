@@ -15,4 +15,4 @@ else()
   ADD_LIBRARY(log SHARED ${SRC})
 endif()
 
-TARGET_LINK_LIBRARIES(log PUBLIC ${LINK_glog} ${LINK_gflags} ${LINK_unwind})
+TARGET_LINK_LIBRARIES(log PUBLIC ${LINK_glog} ${LINK_gflags})

@@ -21,7 +21,7 @@
  * @version 0.1
  * @date 2020-11-23
  */
-#include <gflags/gflags.h>
+// #include <gflags/gflags.h>
 // #include <gperftools/heap-profiler.h>
 // #include <gperftools/profiler.h>
 
@@ -52,7 +52,7 @@
 #include "tcl/UserShell.hh"
 #include "usage/usage.hh"
 
-DEFINE_string(confPath, "test.conf", "program configure file.");
+// DEFINE_string(confPath, "test.conf", "program configure file.");
 
 using namespace ista;
 
