@@ -278,7 +278,7 @@ bool LibClassifyCell::compareFunction(LibCell* the_cell1, LibCell* the_cell2)
  * @param the_lib
  * @param hash_to_cells
  */
-void LibClassifyCell::classifyOneLibCell(LibLibrary* the_lib, std::unordered_map<u_int64_t, Vector<LibCell*>>& hash_to_cells)
+void LibClassifyCell::classifyOneLibCell(LibLibrary* the_lib, std::unordered_map<size_t, Vector<LibCell*>>& hash_to_cells)
 {
   LibCell* cell;
   FOREACH_LIB_CELL(the_lib, cell)
