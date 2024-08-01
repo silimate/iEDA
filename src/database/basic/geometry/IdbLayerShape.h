@@ -37,6 +37,8 @@
 
 #include "IdbGeometry.h"
 
+typedef unsigned int uint;
+
 namespace idb {
 
 enum class IdbLayerShapeType
